@@ -1,0 +1,14 @@
+charAt(3) -> pega o caractere da posição desejada na string
+charCodeAt(2) -> pega o valor na tabela ASCII
+indexOf(3) -> procura o valor informado dentro da string e dá seu índice
+substring(1,3) -> imprime do índice informado para frente e até o informado para encerrar
+
+replace(/\d/g, 'i') -> /\d/g substitui todos os digitos globais da string pela letra i 
+replace(/\w/g, 'i') -> /\w/g substitui todas as words globais da string pela letra i 
+replace(/3/g, 'i') -> substitui todos os 3 por i
+
+console.log('Olá, batata, Giuliane'.split(',')) -> CONVERTE TUDO DA STRING PARA UM ARRAY, SEPARA POR ',' OS ELEMENTOS
+delete pode ser utilizado para remover um índice do vetor: delete vetor[0]
+
+Math é um objeto -> pode chamar Math.PI por exemplo, ou Math.pow(x,y)
+
