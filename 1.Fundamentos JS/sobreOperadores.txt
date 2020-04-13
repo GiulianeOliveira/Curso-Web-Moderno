@@ -1,7 +1,0 @@
-=== Significa que além de serem iguais, as variáveis são do mesmo tipo.
-Ex:
-1 === 1 -> true
-'1' === 1 -> false, porque são de tipos diferentes, um é string e o outro number
-'3' != 3 -> false, porque nao compara os tipos, apenas os numeros
-'3' !=== 3 -> true porque sao de tipos diferentes
-
