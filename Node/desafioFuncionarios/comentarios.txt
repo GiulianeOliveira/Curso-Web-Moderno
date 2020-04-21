@@ -1,0 +1,9 @@
+O comando npm init define como vai ser o seu arquivo packge.json, como nome do projeto, versão, repositório
+do projeto, etc..
+Outra forma de criar o arquivo sem responder as perguntas é npm init -y -> responderá yes para tudo.
+
+Para instalar uma dependência no diretório do desafio e informá-la no arquivo packge.json:
+npm i -- save axios
+O arquivo packge.json serve para descrever o seu projeto e também para descrever todas as dependências
+que o seu projeto precisa.
+
