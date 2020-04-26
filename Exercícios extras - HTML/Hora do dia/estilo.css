@@ -1,0 +1,25 @@
+body{
+    background-color: bisque;
+    font: normal 15pt Arial;
+}
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.116);
+    padding: 15px; /*espaço em cima e embaixo*/
+    width: 500px;    /*largura TESTAR COLOCAR auto*/
+    margin: auto;
+}
+footer{
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+div#foto{
+    padding: 10px;
+}
