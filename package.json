@@ -1,0 +1,24 @@
+{
+  "name": "Curso-Web-Moderno",
+  "version": "1.0.0",
+  "description": "Códigos desenvolvidos com base no aprendizado do Curso de Web Moderno que estou realizando na plataforma Udemy",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiulianeOliveira/Curso-Web-Moderno.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiulianeOliveira/Curso-Web-Moderno/issues"
+  },
+  "homepage": "https://github.com/GiulianeOliveira/Curso-Web-Moderno#readme"
+}
