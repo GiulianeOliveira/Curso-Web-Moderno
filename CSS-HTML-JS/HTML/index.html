@@ -4,16 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercícios html</title>
+    <style>
+        #conteudo{
+            padding: 30px 0px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        Exercícios html
+        <h1>Exercícios html</h1>
     </header>
-    <nav>
-        <a href="exercicios/teste.html">clica</a>
+    <nav> <!---Navegação no site-->
+        <a href wbnav="exercicios/teste.html"> 00 Teste</a> |
+        <a href wbnav="exercicios\texto1.html"> 01 Texto 1</a> |
+        <a href wbnav="exercicios\texto2.html"> 02 Texto 2</a> |
+        <a href wbnav="exercicios\listas.html"> 03 Lista</a> |
+        <a href wbnav="exercicios\listasAlinhadas.html"> 04 Lista Alinhada</a> |
     </nav>
     <section id="conteudo">
         
     </section>
+    <footer>
+        Curso Web Moderno
+    </footer>
+    <script>
+        // Pega todas as tags a e faz algo com o foreach (callback com elemento, indice e array)
+        document.querySelectorAll('[wbnav]').forEach(link => {
+            const conteudo = document.getElementById('conteudo')
+            
+            link.onclick = function(evento){
+                evento.preventDefault() // previne que a navegação ocorra
+                fetch(link.getAttribute('wbnav'))
+                    .then(resp => resp.text())
+                    .then(html => conteudo.innerHTML = html)
+            }
+        })
+    </script>
 </body>
 </html>
