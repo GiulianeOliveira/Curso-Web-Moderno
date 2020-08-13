@@ -1,0 +1,51 @@
+<table> <!--border="1" Faz as bordinhas da tabela-->
+    <caption>Produtos</caption>
+    <thead> <!--Cabeçalho da tabela-->
+        <tr>
+            <th>Produto</th> <!--Colunas-->
+            <th>Preço</th>
+            <th>Quantidade</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody> <!--Corpo da tabela, onde contém os dados-->
+        <tr> <!--Linha-->
+            <td>IPad</td> <!--Dados, células da tabela-->
+            <td>R$ 3.599</td>
+            <td>5</td>
+            <td>R$ 17.995</td>
+        </tr>
+        <tr> <!--Linha-->
+            <td>Notebook</td>
+            <td>R$ 5.800</td>
+            <td>1</td>
+            <td>R$ 5.800</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr> <!--Linha-->
+            <td colspan="3">Total</td> <!--colspan diz quantas colunas quer ocupar-->
+            <td>R$ 23.795</td>
+        </tr>
+    </tfoot>
+</table>
+
+<style>
+    table{
+        border-collapse: collapse; 
+    }
+    td, th{
+        padding: 10px;
+    }
+    thead{
+        border-bottom: solid 3px rgb(53, 52, 52);    
+    }
+    tbody tr:hover{
+        background-color: #dedede;
+    }
+    tfoot{
+        background-color: #444;
+        color: #fff;
+        font-weight: bold;
+    }
+</style>
